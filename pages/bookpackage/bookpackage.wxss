@@ -1,0 +1,92 @@
+/* pages/bookpackage/bookpackage.wxss */
+
+.choose_area {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.choose_text {
+  flex: 1;
+  padding: 20rpx;
+  margin-left: 20rpx;
+}
+
+.arrow_image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+}
+
+.avatar_img {
+  margin-left: 20rpx;
+}
+
+.avatar-text {
+  font-size: 35rpx;
+  margin-left: 20rpx;
+  align-self: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.weui-cell-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+
+.delete-img {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 30rpx;
+}
+
+.avatar-title2 {
+  font-size: 9px;
+  color: black;
+  padding: 5rpx;
+  margin-right: 20rpx;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.feature-view {
+  margin-top: 90rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.tijiao-view {
+  position: fixed;
+  width: 100%;
+  bottom: 0rpx;
+  height: 120rpx;
+  background-color: white;
+}
+
+.list-view {
+  margin-bottom: 150rpx;
+}
+
+.all-choose-book {
+  margin-left: 30rpx;
+}
+
+.tijiao-btn{
+  position: fixed;
+  right: 0rpx;
+  padding: 0rpx 30rpx;
+  height:125rpx;
+  line-height: 120rpx;
+  text-align: center;
+  background: #d81e06;
+  color: white
+}

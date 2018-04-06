@@ -1,0 +1,29 @@
+/* pages/takebook/takebook.wxss */
+
+.page{
+  height: 100%;
+  background: white;
+}
+
+.hint_text{
+  margin-top: 20rpx;
+  padding: 40rpx;
+  background: white;
+  font-size: 15px;
+  height: 100%;
+}
+
+.bottom_view{
+  position: fixed;
+  width: 100%;
+  bottom: 0rpx;
+  height: 130rpx;
+  background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.button_view{
+  flex:1;
+  margin: 20rpx;
+}

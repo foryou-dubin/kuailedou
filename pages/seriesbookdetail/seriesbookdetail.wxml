@@ -1,0 +1,51 @@
+<!--pages/seriesbookdetail/seriesbookdetail.wxml-->
+<view class="container">
+  <view class="page__bd">
+    <view class="book-head">
+      <image class="summary-image" src="../images/icon_tabbar.png" />
+      <view class="book-summary">
+        <text class="book-title-text">绘本名称</text>
+        <text class="book-auth-text">作者:作者</text>
+        <text class="book-auth-text">出版社:出版社</text>
+        <text class="book-auth-text">适合年龄:3-6能</text>
+        <text class="book-auth-text">类型:类型</text>
+      </view>
+    </view>
+
+    <view class="series-book-list">
+      <text class="title-name">套装目录(共12套)</text>
+      <view class="weui-grids">
+        <block wx:for="{{grids}}" wx:key="*this">
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="../images/icon_tabbar.png" />
+            <view class="weui-grid__label">{{item.text}}</view>
+            <text class="add-to-package" type="warn" size="mini">加入书包</text>
+          </navigator>
+        </block>
+      </view>
+    </view>
+    <view class="book-head book-info">
+      <text class="book-title-text">简介 </text>
+      <text class="book-auth-text">大大赛大大大赛大啊摔das大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔</text>
+    </view>
+
+    <view class="book-head book-info" style="margin-bottom:130rpx">
+      <text class="book-title-text">编辑推荐</text>
+      <text class="book-auth-text">大大赛大大大赛大啊摔das大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大大啊摔大大赛大大大赛大啊大啊摔大大赛大大大赛大啊大啊摔大大赛大大大赛大啊大啊摔大大赛大大大赛大啊s赛大啊摔</text>
+    </view>
+  </view>
+  <view class="bottom-button">
+    <view class="bottom-button-button">
+      <view class="shopping-cart">
+      <view style="display:flex;flex-direction: row;">
+          <image src="../images/cart1.png" style="width: 50rpx; height: 50rpx;margin-top:20rpx;" />
+          <view class="weui-badge" style="height:14px;margin-left:-15rpx;margin-top:5rpx;">8</view>
+        <text class="cart-text">购物车</text>
+        </view>
+      </view>
+      <view class="add-package-view">
+        <text class="add-package-text">加入书包</text>
+      </view>
+    </view>
+  </view>
+</view>

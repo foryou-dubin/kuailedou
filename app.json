@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/givebackbooklist/givebackbooklist",
+    "pages/takebook/takebook",
+    "pages/index/index",
+    "pages/bookpackage/bookpackage",
+    "pages/chooseplace/chooseplace",
+    "pages/seriesbookdetail/seriesbookdetail",
+    "pages/submitsuccess/submitsuccess",
+    "pages/orderlist/orderlist",
+    "pages/orderdetail/orderdetail",
+    "pages/lendlist/lendlist",
+    "pages/bookdetail/bookdetail",
+    "pages/morebooklist/morebooklist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/icon_tabbar.png",
+        "iconPath": "pages/images/icon_tabbar.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/icon_tabbar.png",
+        "iconPath": "pages/images/icon_tabbar.png",
+        "pagePath": "pages/index/index",
+        "text": "书包"
+      },
+      {
+        "selectedIconPath": "pages/images/icon_tabbar.png",
+        "iconPath": "pages/images/icon_tabbar.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+/* pages/bookdetail/bookdetail.wxss */
+.book-head{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  padding: 40rpx 40rpx;
+  background: white
+}
+
+.summary-image{
+  width: 150rpx;
+  height: 240rpx;
+}
+
+.book-summary{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+}
+
+.book-auth-text{
+  font-size: 30rpx;
+}
+
+.book-info{
+  display: flex;
+  flex-direction: column
+}
+
+.bottom-button{
+  position: fixed;
+  width:100%;
+  bottom: 0rpx;
+  height:100rpx;
+  background: white;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-bottom: 0rpx;
+  border-width: 1rpx;
+}
+
+.bottom-button-button{
+  position: relative;
+  align-items: center;
+}
+
+.add-package-view{
+  width:30%;
+  height:100rpx;
+  float:right;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #d81e06
+}
+
+.add-package-text{
+  color: white;
+}
+
+.shopping-cart{
+  float:left;
+  width:70%;
+  height: 100%;
+  text-align: center;
+}
+
+.cart-image{
+  width:50rpx;
+  height:50rpx;
+  margin-left: -100rpx;
+  margin-top: 20rpx;
+}
+
+.cart-text{
+  position: fixed;
+  margin-top: 22rpx;
+  font-size: 35rpx;
+  color: #333333;
+  margin-left: 10rpx;
+}

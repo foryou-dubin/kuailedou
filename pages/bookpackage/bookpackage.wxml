@@ -1,0 +1,37 @@
+<!--pages/bookpackage/bookpackage.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="choose_area">
+      <text class="choose_text" bindtap='choosePlaceClick'>请选择配送点</text>
+      <image class="arrow_image" src="../images/ico_arrow_right_normal.png"></image>
+    </view>
+
+    <view class="list-view">
+      <block wx:for="{{items}}">
+        <view class="weui-cell__hd weui-cell-body" data-index="{{index}}" bindtap='checkboxChange'>
+          <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="{{!item.checked}}"></icon>
+          <icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+          <image class="avatar_img" src="../images/icon_tabbar.png" />
+          <view class="avatar-text">
+            <text class='avatar-title'>小王子</text>
+            <view class="feature-view">
+              <block wx:for="{{item.feature}}">
+                <text class="avatar-title2">可点读</text>
+              </block>
+            </view>
+          </view>
+          <image class="delete-img" src="../images/cart1.png"></image>
+        </view>
+      </block>
+    </view>
+    <view class="tijiao-view">
+      <view class="weui-cell__hd weui-cell-body">
+        <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="{{!item.checked}}"></icon>
+        <icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+        <view>全选</view>
+        <view class="all-choose-book">已选10本</view>
+        <text bindtap="submitSuccess" class="tijiao-btn">提交订单 </text>
+      </view>
+    </view>
+  </view>
+</view>

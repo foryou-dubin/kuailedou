@@ -1,0 +1,11 @@
+<!--pages/takebook/takebook.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <text class="hint_text">还书操作流程：\n1、扫描还书点二维码；\n2、选择要归还的绘本，如实上报图书使用状态；\n3、将书放入还书区域，确认还书；\n\n\n取书操作流程：\n1、如有未归还图书，请先进行还书操作；\n2、点击取书按钮，获取6位取书编码；\n3、根据取书编码，从取书区找出对应的订单；\n4、核对取书数量和名称，如有问题，请立即反馈给客服；</text>
+
+  <view class="bottom_view">
+    <button type="primary" bindtap='returnBookClick' class="button_view">还书</button>
+    <button type="default" bindtap="fetchBookClick" class="button_view">取书</button>
+  </view>
+  </view>
+</view>

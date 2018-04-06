@@ -1,0 +1,23 @@
+<!--pages/chooseplace/chooseplace.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <block wx:for="{{items}}">
+      <view class="weui-cell__hd weui-cell-body" data-index="{{index}}" bindtap='checkboxChange'>
+        <icon class="weui-icon-checkbox_circle" type="circle" size="23" wx:if="{{!item.checked}}"></icon>
+        <icon class="weui-icon-checkbox_success" type="success" size="23" wx:if="{{item.checked}}"></icon>
+        <view class="choose-cell-body">
+          <view class="place-name-view">
+            <text class="place-name"> 一抖（金宝贝体验店）</text>
+            <view class="place-distance">876米</view>
+          </view>
+          <view class="detail-place">
+            地址：海淀区清河中介水木天成小区海淀区清河中介水木天成小区海淀区清河中介...
+          </view>
+          <view class="detail-place">
+            时间：8:00-18:00（周三休息）
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+/* pages/orderdetail/orderdetail.wxss */
+
+.content_view{
+  background: white;
+  width: 100%;
+  margin-top: 5rpx;
+  padding-bottom: 20rpx;
+}
+
+.order_number{
+  justify-content: space-between;
+  padding-right: 20rpx;
+}
+
+.font-style{
+  font-size:14px;
+  margin-left:20rpx;
+  margin-top: 20rpx;
+}
+
+.weui-grid{
+  margin-top: 10rpx;
+  width:33.33333%;
+  background: white;
+  padding:10rpx 10rpx;
+  border:none;
+}
+
+.weui-grids{
+  border-top: none;
+  margin-bottom: 150rpx;
+}

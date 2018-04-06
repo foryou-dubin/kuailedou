@@ -1,0 +1,36 @@
+<!--pages/bookdetail/bookdetail.wxml-->
+<view class="container">
+  <view class="page__bd">
+    <view class="book-head">
+      <image class="summary-image" src="../images/icon_tabbar.png" />
+      <view class="book-summary">
+        <text class="book-title-text">绘本名称</text>
+        <text class="book-auth-text">作者:作者</text>
+        <text class="book-auth-text">出版社:出版社</text>
+        <text class="book-auth-text">适合年龄:3-6能</text>
+        <text class="book-auth-text">类型:类型</text>
+      </view>
+    </view>
+
+    <view class="book-head book-info">
+      <text class="book-title-text">简介 </text>
+      <text class="book-auth-text">大大赛大大大赛大啊摔das大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔</text>
+    </view>
+
+    <view class="book-head book-info">
+      <text class="book-title-text">编辑推荐</text>
+      <text class="book-auth-text">大大赛大大大赛大啊摔das大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔大大赛大大大赛大啊摔</text>
+    </view>
+  </view>
+  <view class="bottom-button">
+    <view class="bottom-button-button">
+      <view class="shopping-cart">
+        <image class="cart-image" src="../images/cart1.png"/>
+        <text class="cart-text">购物车</text>
+      </view>
+      <view class="add-package-view">
+      <text class="add-package-text">加入书包</text>
+      </view>
+    </view>
+  </view>
+</view>

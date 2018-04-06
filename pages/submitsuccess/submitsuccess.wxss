@@ -1,0 +1,12 @@
+/* pages/submitsuccess/submitsuccess.wxss */
+
+.success-img{
+  width:150rpx;
+  height: 150rpx;
+  margin-top: 100rpx;
+}
+
+.weui-btn{
+  margin-top: 80rpx;
+  width: 500rpx;
+}

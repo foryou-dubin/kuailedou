@@ -1,0 +1,45 @@
+<!--pages/orderlist/orderlist.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-navbar">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+          <view class="weui-navbar__title">{{item}}</view>
+        </view>
+      </block>
+      <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+    </view>
+
+     <view class="weui-tab__panel">
+      <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+        <block wx:for="{{lendlist}}">
+          <view class="flex__cloumn lend_view">
+            <view class="flex__row lend_title_view">
+              <view class="order_number">订单编号：11988999</view>
+              <view class="order_status">已提交</view>
+            </view>
+            <view class="order_number order_content_color">下单时间：2016-10-10</view>
+            <view class="order_number order_content_color">配送至：北京海淀区</view>
+            <view class="order_number order_content_color">绘本数量：5本</view>
+          </view>
+        </block>
+      </view>
+
+      <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+        <block wx:for="{{givebacklist}}">
+          <view class="flex__cloumn lend_view">
+            <view class="flex__row lend_title_view">
+              <view class="order_number">订单编号：11988999</view>
+              <view class="order_status">已提交</view>
+            </view>
+            <view class="order_number order_content_color">下单时间：2016-10-10</view>
+            <view class="order_number order_content_color">配送至：北京海淀区</view>
+            <view class="order_number order_content_color">绘本数量：5本</view>
+          </view>
+        </block>
+      </view>
+    </view>
+
+
+    </view>
+  </view>

@@ -1,0 +1,10 @@
+<!--pages/submitsuccess/submitsuccess.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <image class="success-img" src="../images/success.png"/>
+
+    <button class="weui-btn" bindtap="bookListClick" type="default">查看已借书籍</button>
+
+    <button class="weui-btn" bindtap="finishClick" type="primary">完成</button>
+  </view>
+</view>

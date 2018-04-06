@@ -1,0 +1,39 @@
+/* pages/chooseplace/chooseplace.wxss */
+
+.weui-cell-body{
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.choose-cell-body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20rpx;
+}
+
+.place-name-view{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 100%
+}
+
+.place-name{
+  font-size: 12px;
+  flex:1;
+}
+
+.place-distance{
+  font-size: 12px;
+  margin-right: 30rpx;
+}
+
+.detail-place{
+  font-size: 12px;
+  color:#666666
+}
